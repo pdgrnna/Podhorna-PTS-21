@@ -1,0 +1,1045 @@
+
+
+/* Загальні скидання */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+
+footer {
+  margin-top: 30px;
+}
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+}
+
+
+header {
+  background-color: #9ADEFF;
+  padding: 10px 50px;
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-block {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-img {
+  width: 60px;
+  height: auto;
+}
+
+.club-name h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.club-name p {
+  font-size: 14px;
+  margin: 0;
+  color: #000;
+}
+
+/* Навігація */
+.main-nav {
+  display: flex;
+  gap: 30px;
+}
+
+.main-nav a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  background: url('img/background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.game-card2 {
+  background-color: #B5E6FF;
+  border-radius: 34px;
+  padding: 30px 60px;
+  text-align: center;
+  display: inline-block;
+}
+
+.game-header {
+  margin-bottom: 10px;
+}
+
+.next-game2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+.game-date2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.game-time2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #000;
+}
+
+.teams2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.team2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.team2 img {
+  height: 70px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+
+.team2 p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+.section3{
+  padding: 30px 90px;
+  text-align: center;
+}
+
+.section3 h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.news-grid {
+  display: flex;
+  justify-content: center;
+  gap: 140px;
+}
+
+.news-item {
+  width: 400px;
+}
+
+.news-item img {
+  width: 100%;
+  border-radius: 2px;
+  margin-bottom: 0px;
+}
+
+.news-item p {
+  font-size: 16px;
+  border: 2px solid #98D3E9;        /* рамочка */
+  padding: 16px;                    /* внутрішній відступ */
+  border-radius: 2px;               /* заокруглення кутів */
+  background-color: #98D3E9;        /* колір фону */
+  font-weight: normal;                /* жирний текст */
+  margin: 0 auto;                   /* щоб вирівняти */
+  max-width: 100%;                  /* ширина рамки */
+}
+
+
+
+.section4 {
+  padding: 60px 90px;
+  background-color: #e4f4ff;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-left {
+  flex: 1.5;
+}
+
+.section4 h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-left p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.gallery-left {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery-left img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.about-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.gallery-right {
+  display: flex;
+  gap: 15px;
+}
+
+.gallery-right img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.about-facts {
+  background-color: white;
+  border-radius: 8px;
+  padding: 50px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+.about-facts p {
+  margin-bottom: 15px;
+   font-size: 18px;
+}
+
+.video-container {
+  max-width: 1456px;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  object-fit: fill;
+}
+
+
+
+.section5 {
+  padding: 50px 60px;
+  background-image: url('img/backgroundteam.png');
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.section5 h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.team-category {
+  margin-bottom: 40px;
+}
+
+.team-category h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.player-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.player img {
+  width: 200px;
+  height: 165px;
+  border-radius: 12px;
+  background-color: #9ADEFF;
+  padding: 8px;
+  object-fit: cover;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.player-name {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+ 
+.section6 {
+  padding: 40px 20px;
+  background-color: #f0f6ff;
+  text-align: center;
+}
+
+.section6 h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #222;
+  text-transform: uppercase;
+}
+
+.standings-wrapper {
+  overflow-x: auto;
+}
+
+.standings-table {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 18px;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.standings-table th,
+.standings-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #dce3f0;
+}
+
+.standings-table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.standings-table tbody tr:nth-child(even) {
+  background-color: #f7faff;
+}
+
+.standings-table tbody tr:hover {
+  background-color: #e3f0ff;
+}
+
+.tab3 {
+  background-color: #cce8ff; /* світло-голубий */
+}
+
+
+
+.section7 {
+  background-color: #f3f8ff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section7 h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+
+.games-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
+
+.game-block {
+  flex-shrink: 0;
+}
+
+.game-card {
+  background-color: #c3e2ff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 250px;
+  height: 100%; /* розтяг по висоті */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* центр по вертикалі */
+  align-items: center;     /* центр по горизонталі */
+  min-height: 230px;
+  text-align: center;
+}
+
+.teams-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.team-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+  color: #1a1a1a;
+}
+
+.game-date-time {
+  font-size: 18px;
+  font-weight: normal;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.game-date-time .game-date {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.game-date-time .game-time {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #1a1a1a; /* чорний */
+  margin-top: 5px;
+}
+
+.game-place {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+.game-arrow {
+  font-size: 32px;
+  color: #003366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.sectionprice {
+  background-color: #e5f2ff;
+  padding: 40px;
+  text-align: center;
+}
+
+.sectionprice h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+
+.price-cards {
+  display: flex;
+  gap: 70px; 
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.price-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; 
+  min-height: 300px; /* фіксована мінімальна висота, щоб кнопки йшли рівно */
+}
+
+.price-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #002244;
+}
+
+.price {
+ margin-top: 7px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.price-card ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* більший проміжок між пунктами */
+  flex-grow: 1; /* розтягує список на доступний простір */
+  justify-content: center; /* центрує вертикально */
+}
+
+.price-card li {
+  font-size: 16px; 
+  color: #333;
+  position: relative;
+  padding-left: 20px;
+}
+
+.price-card li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.price-card button {
+  background-color: #005bb5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+  align-self: center;
+}
+
+.price-card button:hover {
+  background-color: #003f8c;
+}
+
+
+
+.section8 {
+  position: relative;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.section8 h2 {
+  font-size: 24px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 40px;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* відео позаду всього */
+  overflow: hidden;
+}
+
+.video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* відео повністю покриває фон */
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.gallery-grid img {
+  height: 230px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Ширина картинок як у макеті */
+.gallery-grid img:nth-child(1) { width: 20%; min-width: 200px; }
+.gallery-grid img:nth-child(2) { width: 32%; }
+.gallery-grid img:nth-child(3) { width: 21%; }
+.gallery-grid img:nth-child(4) { width: 22%; }
+
+.gallery-grid img:nth-child(5) { width: 35%;
+ object-position: top;
+}
+.gallery-grid img:nth-child(6) { width: 18%; }
+.gallery-grid img:nth-child(7) { width: 27%; }
+.gallery-grid img:nth-child(8) { width: 15%; }
+
+
+
+.footer {
+  background-color: #cce8ff;
+  padding: 40px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #000;
+}
+
+.footer-left {
+  display: flex;
+  gap: 20px;
+  max-width: 50%;
+  align-items: flex-start;
+}
+
+.footer-left img {
+  width: 80px;
+  height: auto;
+}
+
+.footer-left h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.footer-left span {
+  font-weight: normal;
+}
+
+.footer-left p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.footer-left a {
+  color: inherit; /* Забирає стандартний синій колір, надаючи колір тексту батьківського елемента */
+  text-decoration: none; /* Прибирає підкреслення */
+}
+
+.social-icons img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+
+#contact {
+  padding: 0px 40px;
+  background-color: #cce8ff;
+  margin-top: 0px;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 14px ;
+  padding: 20px;
+  background-color: #8db2d6;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px; 
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #97aec4;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #377ebf;
+}
+
+/* Галочка */
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+/* Випадайка */
+select {
+  background-color: white;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;         
+  width: 100%;           
+  margin-bottom: 5px;    
+}
+
+
+
+
+
+/* МЕДІАЗАПИТИ Загальні */
+
+/* Секція 1: Навігація */
+@media (max-width: 1024px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .logo-block {
+    order: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .main-nav {
+    order: 2;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .about-container, .games-row, .footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+/* Секція 3: Новини */
+  .news-grid {
+    justify-content: center;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .gallery-grid {
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .about-left, .about-right {
+    width: 100%;
+  }
+
+  .footer-left, .footer-right {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .player-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .games-row {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* МЕДІАЗАПИТИ Конкретні */
+
+/* Секція 2: Наступна гра */
+@media (max-width: 768px) {
+  .teams2 {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .game-card2 {
+    width: 100%;
+    max-width: 400px;
+  }
+  .team2 {
+    flex: 1;
+    align-items: center;
+  }
+  .game-time2,
+  .game-date2 {
+    text-align: center;
+  }
+}
+@media (max-width: 450px) {
+  .game-card2 {
+    margin: 0 15px; 
+} }
+ 
+
+/* Секція 4 : Про нас */
+@media (max-width: 650px) {
+  .gallery-left,
+  .gallery-right {
+    flex-direction: column; 
+    gap: 5px; /* Менший відступ між картинками */
+  }
+
+  .gallery-left img,
+  .gallery-right img {
+    width: 100%; /* Картинки займають всю ширину */
+    max-width: 100%; /* Забезпечує, щоб картинка не була менша за батьківський елемент */
+    height: auto; /* Збереження пропорцій */
+  }
+  .about-left p,
+  .about-right p {
+    font-size: 16px; 
+  }
+}
+
+
+/* Секція 5: Склад команди  */
+@media (max-width: 1070px) {
+  .player {
+    width: 45%;
+  }
+}
+
+@media (max-width: 550px) {
+  .player {
+    width: 100%;
+  }
+.player-row {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .games-row {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+
+/*  Секція 6: Турнірна таблиця */
+@media (max-width: 768px) {
+  .standings-wrapper {
+    overflow-x: auto;
+  }
+  .standings-table {
+    font-size: 14px;
+    min-width: 600px;
+  }
+}
+
+
+/*  Секція 7: Наступні ігри */
+@media (max-width: 768px) {
+  .games-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .game-arrow {
+    display: none;
+  }
+
+  .game-block {
+    width: 100%;
+  }
+
+  .game-card {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+
+/*  Секція 8: Фотогалерея  */
+@media (max-width: 1024px) {
+  .gallery-grid img {
+    width: 100% !important;
+    max-width: 320px;
+  }
+
+  .gallery-grid {
+    padding: 0 10px;
+    gap: 15px;
+  }
+}
+
+
+/* ====== Footer ====== */
+@media (max-width: 720px) {
+  .footer {
+    flex-direction: column;
+    align-items: center
+
+  }
+
+  .footer-left, .footer-right {
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .footer-left {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-column {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+/* БУРГЕР-МЕНЮ*/
+
+.main-nav a:hover {
+  color: #f46b45;
+}
+
+/* іконка */
+#burger-toggle {
+  display: none;
+}
+
+.burger-icon {
+  display: none;
+  font-size: 28px;
+  color: black;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Медіа-запит для мобільних пристроїв */
+@media (max-width: 700px) {
+  /* Відображення бургер-меню */
+  .burger-icon {
+    display: block;
+  }
+
+  /* Сховане меню по дефолту (зліва) */
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: #9ADEFF;
+    width: 200px;
+    height: auto; 
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  /* Коли бургер-меню відкрито */
+  #burger-toggle:checked ~ .main-nav {
+    display: flex;
+    left: 0;
+  }
+
+  /* Стилі для пунктів меню */
+  .main-nav a {
+    padding: 10px;
+    font-size: 14px; 
+    text-align: center;
+    color: black;
+  }
+
+  .main-nav a:hover {
+    color: #287abd; 
+  }
+}
+
+ 
